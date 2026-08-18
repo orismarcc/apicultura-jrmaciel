@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jrmaciel.vercel.app/sitemap.xml

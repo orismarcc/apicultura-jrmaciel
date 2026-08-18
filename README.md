@@ -16,7 +16,7 @@ Mel puro produzido por Junior Maciel, apicultor desde 2010. Produto certificado 
 O número de WhatsApp fica em `app.js`, primeira linha:
 
 ```js
-var WHATSAPP = "5500000000000"; // 55 + DDD + número, só dígitos
+var WHATSAPP = "5566984391028"; // 55 + DDD + número, só dígitos
 ```
 
 ## Deploy

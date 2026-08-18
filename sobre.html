@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sobre o Apiário, História do Mel e Localização | Apicultura JR Maciel</title>
-<meta name="description" content="Conheça Junior Maciel, apicultor em Confresa-MT desde 2010, a história milenar do mel, como o mel é preparado do favo ao pote, vídeos do apiário e onde nos encontrar.">
+<title>Sobre o Apiário, Preparo do Mel e Localização | Apicultura JR Maciel</title>
+<meta name="description" content="Conheça Junior Maciel, apicultor em Confresa-MT desde 2010: como o mel é preparado do favo ao pote, galeria e vídeos do apiário, redes sociais e onde nos encontrar.">
 <meta name="theme-color" content="#140e06">
 <link rel="canonical" href="https://jrmaciel.vercel.app/sobre.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sobre o Apiário e a História do Mel | Apicultura JR Maciel">
-<meta property="og:description" content="A história do mel, nosso processo de produção em Confresa-MT, vídeos do apiário e como nos encontrar.">
+<meta property="og:title" content="Sobre o Apiário e o Preparo do Mel | Apicultura JR Maciel">
+<meta property="og:description" content="Nosso processo de produção em Confresa-MT, galeria e vídeos do apiário e como nos encontrar.">
 <meta property="og:url" content="https://jrmaciel.vercel.app/sobre.html">
 <meta property="og:image" content="https://jrmaciel.vercel.app/img/apiario-colmeias.webp">
 <meta property="og:locale" content="pt_BR">
@@ -30,8 +30,8 @@
     </a>
     <nav class="nav__links" id="navLinks" aria-label="Principal">
       <a href="/#produtos">Produtos</a>
-      <a href="#historia">História do mel</a>
       <a href="#processo">Preparo</a>
+      <a href="#galeria">Galeria</a>
       <a href="#videos">Vídeos</a>
       <a href="#localizacao">Localização</a>
       <a class="btn btn--sm btn--primary nav__cta" href="/#pedido">Pedir mel</a>
@@ -45,66 +45,22 @@
 <main id="conteudo">
 
   <section class="pagehero">
-    <div class="wrap pagehero__in">
+    <div class="wrap pagehero__in" data-galeria>
       <div>
         <p class="kicker">Sobre nós</p>
         <h1>Apicultura de verdade, no norte do Mato Grosso.</h1>
         <p class="lead">Meu nome é <strong>Junior Maciel</strong>. Sou técnico em agropecuária e trabalho com apicultura desde 2010, aqui em Confresa — MT. Cuido pessoalmente das colmeias, da colheita e do envase: o mel que chega até você passou pelas minhas mãos do começo ao fim.</p>
         <div class="stats">
-          <div><strong>2010</strong><span>Trabalhando com abelhas</span></div>
+          <div><strong data-contar="2010">0</strong><span>Trabalhando com abelhas</span></div>
           <div><strong>SIAPP</strong><span>Produto certificado</span></div>
           <div><strong>Confresa</strong><span>Mato Grosso</span></div>
-          <div><strong>+30</strong><span>Vídeos do apiário no canal</span></div>
+          <div><strong data-contar="30" data-prefixo="+">0</strong><span>Vídeos do apiário no canal</span></div>
         </div>
       </div>
       <figure class="foto foto--retrato">
-        <img src="/img/colmeia-abelhas.webp" alt="Colmeia coberta de abelhas no apiário da JR Maciel, em Confresa - MT" width="229" height="509" loading="eager" decoding="async">
-        <figcaption>Colmeia em plena atividade no apiário</figcaption>
+        <img src="/img/colmeia-abelhas.webp" alt="Colmeia de madeira coberta de ponta a ponta por milhares de abelhas em barba na parede frontal, telhado de telha ondulada, com outras caixas coloridas ao fundo no apiário de Confresa" width="229" height="509" loading="eager" decoding="async">
+        <figcaption>Colmeia em plena atividade: quando a caixa fica cheia, as abelhas se aglomeram do lado de fora para ventilar o ninho e baixar a umidade do mel. Sinal de colônia forte e safra chegando.</figcaption>
       </figure>
-    </div>
-  </section>
-
-  <!-- HISTÓRIA DO MEL -->
-  <section class="sec" id="historia">
-    <div class="wrap">
-      <p class="kicker">Um alimento com 8.000 anos</p>
-      <h2 class="h2">A história do mel, em cinco capítulos</h2>
-      <p class="sec__sub">Antes de ser produto de prateleira, o mel foi remédio, moeda, oferenda e conservante. Entender essa trajetória ajuda a valorizar o que existe dentro de um pote.</p>
-
-      <div class="tl">
-        <article class="tl__item reveal">
-          <span class="tl__ano">~6.000 a.C.</span>
-          <h3>A pintura de Bicorp</h3>
-          <p>Nas Cuevas de la Araña, na Espanha, uma pintura rupestre mostra uma figura humana escalando cordas para colher mel de um ninho selvagem. É o registro mais antigo da relação entre pessoas e abelhas.</p>
-        </article>
-        <article class="tl__item reveal">
-          <span class="tl__ano">Antiguidade</span>
-          <h3>Ouro líquido do Egito</h3>
-          <p>Egípcios criavam abelhas em colmeias de barro às margens do Nilo, usavam o mel em rituais funerários e como base de unguentos. Potes encontrados em tumbas seguiam próprios para consumo milênios depois.</p>
-        </article>
-        <article class="tl__item reveal">
-          <span class="tl__ano">Idade Média</span>
-          <h3>Hidromel e cera</h3>
-          <p>Mosteiros europeus mantinham apiários pela cera das velas litúrgicas — e transformavam o mel excedente em hidromel, uma das bebidas fermentadas mais antigas do mundo.</p>
-        </article>
-        <article class="tl__item reveal">
-          <span class="tl__ano">1851</span>
-          <h3>A colmeia moderna</h3>
-          <p>O reverendo Lorenzo Langstroth descobre o “espaço de abelha” e cria a colmeia de quadros móveis. Pela primeira vez foi possível colher mel sem destruir o ninho — o princípio que usamos até hoje.</p>
-        </article>
-        <article class="tl__item reveal">
-          <span class="tl__ano">Hoje</span>
-          <h3>Apicultura que preserva</h3>
-          <p>Um terço dos alimentos que chegam à mesa depende de polinização. Cuidar de abelhas deixou de ser só produção de mel: é serviço ambiental — e, no cerrado mato-grossense, também é defesa das abelhas contra o uso indevido de agrotóxicos.</p>
-        </article>
-      </div>
-
-      <div class="fatos">
-        <div class="fato reveal"><strong>60.000</strong><span>abelhas em uma colmeia forte no auge da florada</span></div>
-        <div class="fato reveal"><strong>2 mi</strong><span>de flores visitadas para produzir 500 g de mel</span></div>
-        <div class="fato reveal"><strong>7 km</strong><span>o raio máximo de voo de uma abelha campeira</span></div>
-        <div class="fato reveal"><strong>18%</strong><span>de umidade máxima: o ponto do mel maduro</span></div>
-      </div>
     </div>
   </section>
 
@@ -146,14 +102,14 @@
             <p>Envasamos em bisnagas, potes e garrafas higienizados, com lacre e rotulagem conforme as exigências do SIAPP. Guardado ao abrigo da luz, o mel dura o prazo indicado no rótulo.</p></div>
           </li>
         </ol>
-        <aside class="preparo__fotos">
+        <aside class="preparo__fotos" data-galeria>
           <figure class="foto">
-            <img src="/img/apiario-colmeias.webp" alt="Fila de colmeias coloridas instaladas sob árvores no apiário em Confresa - MT" width="247" height="509" loading="lazy">
-            <figcaption>Apiário instalado em área de mata, Confresa — MT</figcaption>
+            <img src="/img/apiario-colmeias.webp" alt="Fila de colmeias pintadas em azul, roxo e madeira natural, apoiadas em cavaletes metálicos sobre solo de terra vermelha, à sombra de árvores nativas no apiário de Confresa") width="247" height="509" loading="lazy">
+            <figcaption>Apiário instalado à sombra da mata nativa, em Confresa — MT. Os cavaletes de metal mantêm as caixas longe da umidade do solo e das formigas; a distância entre elas evita que as campeiras errem de colmeia na volta.</figcaption>
           </figure>
           <figure class="foto">
-            <img src="/img/potes-mel.webp" alt="Potes de vidro com mel e tampas amarelas, prontos para venda" width="229" height="509" loading="lazy">
-            <figcaption>Envase da safra, pronto para entrega</figcaption>
+            <img src="/img/potes-mel.webp" alt="Dezenas de potes de vidro de boca larga cheios de mel âmbar-escuro, tampas amarelas de rosca, organizados em fileiras sobre toalha clara, com garrafas ao fundo") width="229" height="509" loading="lazy">
+            <figcaption>Envase da safra pronto para entrega. Cada pote é higienizado, cheio, lacrado e rotulado seguindo as exigências do SIAPP, com identificação do lote para rastrear a colheita de origem.</figcaption>
           </figure>
         </aside>
       </div>
@@ -199,6 +155,37 @@
         </article>
       </div>
       <p class="videos__nota">Mais de 30 vídeos disponíveis — <a href="https://www.youtube.com/@apiculturajrmaciel" target="_blank" rel="noopener">acesse o canal completo</a>.</p>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="sec" id="galeria">
+    <div class="wrap">
+      <p class="kicker">Galeria</p>
+      <h2 class="h2">O apiário e a casa do mel</h2>
+      <p class="sec__sub">Fotos do dia a dia da produção. Clique em qualquer imagem para ampliar &mdash; navegue com as setas do teclado.</p>
+      <div class="galeria" data-galeria>
+        <figure class="foto foto--g">
+          <img src="/img/apiario-colmeias.webp" alt="Fila de colmeias pintadas em azul, roxo e madeira natural sobre cavaletes metálicos, no solo de terra vermelha à sombra da mata" width="247" height="509" loading="lazy">
+          <figcaption>As colmeias ficam sob a copa das árvores: a sombra segura a temperatura interna nos dias quentes de Mato Grosso e poupa energia das abelhas, que gastariam boa parte do dia só ventilando a caixa.</figcaption>
+        </figure>
+        <figure class="foto foto--g">
+          <img src="/img/colmeia-abelhas.webp" alt="Colmeia inteiramente coberta por abelhas formando barba na parede frontal, com telhado de telha ondulada" width="229" height="509" loading="lazy">
+          <figcaption>Colônia no auge da safra. Essa aglomeração do lado de fora, chamada de barba, aparece quando a caixa está cheia e as abelhas precisam de espaço para ventilar o mel até o ponto certo de umidade.</figcaption>
+        </figure>
+        <figure class="foto foto--g">
+          <img src="/img/bisnagas-mel.webp" alt="Bisnagas de mel enfileiradas sobre bancada de vidro, o mel âmbar visível através do plástico, com tampas dosadoras amarelas e verdes" width="247" height="509" loading="lazy">
+          <figcaption>Bisnagas recém-envasadas. O mel escuro e denso é típico das floradas nativas da região; a cor mais fechada indica maior concentração de minerais e sabor mais encorpado.</figcaption>
+        </figure>
+        <figure class="foto foto--g">
+          <img src="/img/potes-mel.webp" alt="Fileiras de potes de vidro de boca larga cheios de mel, com tampas amarelas de rosca, sobre toalha clara" width="229" height="509" loading="lazy">
+          <figcaption>Potes de vidro lacrados, prontos para sair. O vidro é o material que melhor preserva o aroma da florada, porque não troca cheiro nem sabor com o mel ao longo dos meses.</figcaption>
+        </figure>
+        <figure class="foto foto--g">
+          <img src="/img/prateleira-produtos.webp" alt="Estante de aço com três prateleiras de garrafas de mel rotuladas da Apicultura JR Maciel e potes menores embaixo" width="235" height="509" loading="lazy">
+          <figcaption>Estoque organizado por lote na casa do mel. Cada rótulo identifica a colheita de origem, o que permite rastrear qualquer pote de volta até o apiário e a florada de onde saiu.</figcaption>
+        </figure>
+      </div>
     </div>
   </section>
 
@@ -253,13 +240,13 @@
           </div>
           <div class="info">
             <h3>Contato</h3>
-            <p>WhatsApp: (00) 90000-0000<br>Instagram: <a href="https://www.instagram.com/apiculturajrmaciel/" target="_blank" rel="noopener">@apiculturajrmaciel</a></p>
+            <p>WhatsApp: <a data-wpp target="_blank" rel="noopener">(66) 98439-1028</a><br>Instagram: <a href="https://www.instagram.com/apiculturajrmaciel/" target="_blank" rel="noopener">@apiculturajrmaciel</a></p>
           </div>
           <div class="info">
             <h3>Visitas</h3>
             <p>Recebemos visitas ao apiário mediante agendamento prévio pelo WhatsApp.</p>
           </div>
-          <a class="btn btn--primary btn--lg" href="/#pedido">Agendar visita ou pedir mel</a>
+          <a class="btn btn--wpp btn--lg" data-wpp="Olá, JR Maciel! Vim pelo site e quero agendar uma visita ao apiário." target="_blank" rel="noopener"><svg class="ico-wa" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.83 3.03 16.01c0 2.29.6 4.53 1.75 6.5L3 29l6.65-1.74a12.94 12.94 0 0 0 6.39 1.67h.01c7.18 0 13.01-5.83 13.01-13.01 0-3.48-1.35-6.74-3.81-9.2A12.9 12.9 0 0 0 16.04 3Zm0 23.73h-.01a10.8 10.8 0 0 1-5.5-1.51l-.4-.23-4.09 1.07 1.09-3.99-.26-.41a10.76 10.76 0 0 1-1.65-5.75c0-5.96 4.86-10.81 10.83-10.81 2.89 0 5.6 1.13 7.64 3.17a10.73 10.73 0 0 1 3.17 7.65c0 5.96-4.86 10.81-10.82 10.81Zm5.94-8.1c-.33-.16-1.93-.95-2.22-1.06-.3-.11-.52-.16-.73.16-.22.33-.84 1.06-1.03 1.28-.19.22-.38.24-.7.08-.33-.16-1.38-.51-2.62-1.62-.97-.86-1.62-1.93-1.81-2.25-.19-.33-.02-.5.14-.66.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.16-.73-1.76-1-2.41-.26-.63-.53-.55-.73-.56l-.62-.01c-.22 0-.57.08-.86.41-.3.33-1.13 1.1-1.13 2.69s1.16 3.12 1.32 3.34c.16.22 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.25 1.48.21 2.03.13.62-.09 1.93-.79 2.2-1.55.27-.76.27-1.42.19-1.55-.08-.14-.3-.22-.62-.38Z"/></svg>Agendar visita pelo WhatsApp</a>
         </div>
         <div class="local__mapa">
           <iframe
@@ -277,7 +264,7 @@
       <p class="kicker kicker--light">Pronto para provar?</p>
       <h2 class="h2 h2--light" style="max-width:100%;margin-inline:auto">Peça seu mel direto com o Junior</h2>
       <p class="cta__sub" style="margin-inline:auto">Atendimento pessoal, sem intermediário, com produto certificado pelo SIAPP.</p>
-      <a class="btn btn--primary btn--lg" href="/#pedido">Fazer meu pedido</a>
+      <a class="btn btn--wpp btn--lg" data-wpp="Olá, JR Maciel! Vim pelo site e quero fazer um pedido de mel." target="_blank" rel="noopener"><svg class="ico-wa" viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.83 3.03 16.01c0 2.29.6 4.53 1.75 6.5L3 29l6.65-1.74a12.94 12.94 0 0 0 6.39 1.67h.01c7.18 0 13.01-5.83 13.01-13.01 0-3.48-1.35-6.74-3.81-9.2A12.9 12.9 0 0 0 16.04 3Zm0 23.73h-.01a10.8 10.8 0 0 1-5.5-1.51l-.4-.23-4.09 1.07 1.09-3.99-.26-.41a10.76 10.76 0 0 1-1.65-5.75c0-5.96 4.86-10.81 10.83-10.81 2.89 0 5.6 1.13 7.64 3.17a10.73 10.73 0 0 1 3.17 7.65c0 5.96-4.86 10.81-10.82 10.81Zm5.94-8.1c-.33-.16-1.93-.95-2.22-1.06-.3-.11-.52-.16-.73.16-.22.33-.84 1.06-1.03 1.28-.19.22-.38.24-.7.08-.33-.16-1.38-.51-2.62-1.62-.97-.86-1.62-1.93-1.81-2.25-.19-.33-.02-.5.14-.66.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.16-.73-1.76-1-2.41-.26-.63-.53-.55-.73-.56l-.62-.01c-.22 0-.57.08-.86.41-.3.33-1.13 1.1-1.13 2.69s1.16 3.12 1.32 3.34c.16.22 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.25 1.48.21 2.03.13.62-.09 1.93-.79 2.2-1.55.27-.76.27-1.42.19-1.55-.08-.14-.3-.22-.62-.38Z"/></svg>Fazer meu pedido</a>
     </div>
   </section>
 
@@ -292,7 +279,6 @@
     <nav class="foot__nav" aria-label="Rodapé">
       <a href="/">Início</a>
       <a href="/#produtos">Produtos</a>
-      <a href="#historia">História do mel</a>
       <a href="#localizacao">Localização</a>
     </nav>
     <div class="foot__social">
@@ -307,8 +293,8 @@
   <div class="wrap foot__bar"><p>&copy; <span id="ano">2026</span> Apicultura JR Maciel — Confresa/MT. Todos os direitos reservados.</p></div>
 </footer>
 
-<a class="wpp" href="https://wa.me/" data-wpp target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-  <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.05L2 22l5.1-1.33A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.03.79.81-2.95-.2-.31A8.2 8.2 0 1 1 12 20.2Zm4.5-6.14c-.25-.13-1.46-.72-1.69-.8-.22-.08-.39-.13-.55.12-.16.25-.63.8-.77.96-.14.17-.28.19-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.55-1.34-.76-1.83-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.31-.22.25-.84.82-.84 2s.86 2.32.98 2.48c.12.17 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.46-.6 1.66-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.17-.47-.29Z"/></svg>
+<a class="wpp" data-wpp="Olá, JR Maciel! Vim pelo site e quero saber mais sobre o mel." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg class="ico-wa" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.83 3.03 16.01c0 2.29.6 4.53 1.75 6.5L3 29l6.65-1.74a12.94 12.94 0 0 0 6.39 1.67h.01c7.18 0 13.01-5.83 13.01-13.01 0-3.48-1.35-6.74-3.81-9.2A12.9 12.9 0 0 0 16.04 3Zm0 23.73h-.01a10.8 10.8 0 0 1-5.5-1.51l-.4-.23-4.09 1.07 1.09-3.99-.26-.41a10.76 10.76 0 0 1-1.65-5.75c0-5.96 4.86-10.81 10.83-10.81 2.89 0 5.6 1.13 7.64 3.17a10.73 10.73 0 0 1 3.17 7.65c0 5.96-4.86 10.81-10.82 10.81Zm5.94-8.1c-.33-.16-1.93-.95-2.22-1.06-.3-.11-.52-.16-.73.16-.22.33-.84 1.06-1.03 1.28-.19.22-.38.24-.7.08-.33-.16-1.38-.51-2.62-1.62-.97-.86-1.62-1.93-1.81-2.25-.19-.33-.02-.5.14-.66.15-.15.33-.38.49-.57.16-.19.22-.33.33-.55.11-.22.05-.41-.03-.57-.08-.16-.73-1.76-1-2.41-.26-.63-.53-.55-.73-.56l-.62-.01c-.22 0-.57.08-.86.41-.3.33-1.13 1.1-1.13 2.69s1.16 3.12 1.32 3.34c.16.22 2.28 3.48 5.52 4.88.77.33 1.37.53 1.84.68.77.25 1.48.21 2.03.13.62-.09 1.93-.79 2.2-1.55.27-.76.27-1.42.19-1.55-.08-.14-.3-.22-.62-.38Z"/></svg>
   <span>Falar no WhatsApp</span>
 </a>
 

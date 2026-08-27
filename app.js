@@ -104,12 +104,14 @@ var WHATSAPP = "5566984391028";
         var fim = parseFloat(el.getAttribute("data-contar"));
         var sufixo = el.getAttribute("data-sufixo") || "";
         var prefixo = el.getAttribute("data-prefixo") || "";
-        if (semAnimacao) { el.textContent = prefixo + fim.toLocaleString("pt-BR") + sufixo; return; }
+        var ano = el.getAttribute("data-formato") === "ano";
+        var fmt = function (n) { return ano ? String(n) : n.toLocaleString("pt-BR"); };
+        if (semAnimacao) { el.textContent = prefixo + fmt(fim) + sufixo; return; }
         var inicio = performance.now(), dur = 1400;
         var passo = function (t) {
           var p = Math.min((t - inicio) / dur, 1);
           var e = 1 - Math.pow(1 - p, 3);
-          el.textContent = prefixo + Math.round(fim * e).toLocaleString("pt-BR") + sufixo;
+          el.textContent = prefixo + fmt(Math.round(fim * e)) + sufixo;
           if (p < 1) requestAnimationFrame(passo);
         };
         requestAnimationFrame(passo);
